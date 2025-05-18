@@ -1,0 +1,166 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.course-detail-container {
+  min-height: 100vh;
+  background-color: white;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.course-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.course-text {
+  flex: 1 1 55%;
+}
+
+.course-tag {
+  color: #2c66f5;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+}
+
+.course-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #121212;
+}
+
+.course-description {
+  color: #333333;
+  margin-bottom: 1.5rem;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.brochure-btn,
+.assessment-btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.brochure-btn {
+  background-color: #2c66f5;
+  color: white;
+}
+
+.brochure-btn:hover {
+  background-color: #1f4ed0;
+  box-shadow: 0 4px 10px rgba(44, 102, 245, 0.4);
+}
+
+.assessment-btn {
+  background: transparent;
+  color: #2c66f5;
+  border: 2px solid #2c66f5;
+}
+
+.assessment-btn:hover {
+  background-color: #e6ecff;
+  color: #1f4ed0;
+  border-color: #1f4ed0;
+  box-shadow: 0 4px 10px rgba(44, 102, 245, 0.3);
+}
+
+.deadline-warning {
+  margin-top: 1rem;
+  color: #cc5200;
+  font-size: 14px;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+.course-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 10px;
+  color: #1a1a1a;
+
+}
+
+.course-features div {
+  flex: 1 1 150px;
+}
+
+/* .course-features div:hover {
+  background-color: #f0f4ff;
+  border-radius: 8px;
+  padding: 0.5rem;
+} */
+
+.course-image {
+  position: relative;
+  flex: 1 1 40%;
+}
+
+.course-image img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.course-image img:hover {
+  transform: scale(1.02);
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(66, 83, 212);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  font-weight: 600;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.play-button:hover {
+  background: rgb(45, 62, 180);
+}
+
+.assessment-link {
+  display: inline-block;
+  margin-top: 2rem;
+  color: #2c66f5;
+  font-weight: 600;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.assessment-link:hover {
+  color: #1f4ed0;
+  text-decoration: none;
+}
