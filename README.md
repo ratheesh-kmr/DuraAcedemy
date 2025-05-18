@@ -1,12 +1,96 @@
-# React + Vite
+# DuraAcademy 🎓
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DuraAcademy is a full-featured Learning Management System (LMS) built with **React.js**, aiming to provide a Udemy-style experience for learners and course providers.
 
-Currently, two official plugins are available:
+## 🌐 Live Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> (Optional) Add your deployed link here:  
+> [https://duraacademy.example.com](https://duraacademy.example.com)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- ✅ **Home Page** inspired by Great Learning & Udemy design
+- 👤 **User Registration**
+- 📚 **Course List View**
+- 📄 **Detailed Course Page**
+- 📝 **Assessments & Quiz Interface**
+- 🔐 Authentication-ready design
+
+---
+
+## 🧰 Tech Stack
+
+| Frontend  | Backend       | Database    | Others            |
+|-----------|---------------|-------------|-------------------|
+| React.js  | Express.js (Planned) | PostgreSQL (Planned) | React Router DOM |
+
+---
+
+## 🖼️ UI Inspiration
+
+- Designed to replicate the clean, responsive, and educational style of **Great Learning** and **Udemy**.
+- Fully responsive hero section with CTA, ratings, and support chat-style UI.
+
+---
+
+## 📁 Folder Structure
+
+```
+DuraAcademy/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── CourseList.jsx
+│   │   ├── CourseDetails.jsx
+│   │   ├── Register.jsx
+│   ├── screens/
+│   │   └── HomeScreen.jsx
+│   ├── styles/
+│   │   └── HomeScreen.css
+│   ├── App.jsx
+│   └── index.js
+└── README.md
+```
+
+---
+
+## 🔧 Installation
+
+```bash
+git clone https://github.com/ratheesh-kmr/DuraAcademy.git
+cd DuraAcademy
+npm install
+npm start
+```
+
+---
+
+## 🛠️ Future Enhancements
+
+- 💾 Backend API integration
+- 🔐 JWT Authentication
+- 🎓 Course enrollment system
+- 🧾 Certificate generation
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+## 👨‍💻 Developed by
+
+**Ratheesh K**  
+[GitHub](https://github.com/ratheesh-kmr) | [LinkedIn](https://linkedin.com/in/ratheesh-kmr)
