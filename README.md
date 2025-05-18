@@ -2,12 +2,6 @@
 
 DuraAcademy is a full-featured Learning Management System (LMS) built with **React.js**, aiming to provide a Udemy-style experience for learners and course providers.
 
-## 🌐 Live Preview
-
-> (Optional) Add your deployed link here:  
-> [https://duraacademy.example.com](https://duraacademy.example.com)
-
----
 
 ## 🚀 Features
 
@@ -92,5 +86,5 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ## 👨‍💻 Developed by
 
-**Ratheesh K**  
-[GitHub](https://github.com/ratheesh-kmr) | [LinkedIn](https://linkedin.com/in/ratheesh-kmr)
+**Ratheesh Kumar**  
+[GitHub](https://github.com/ratheesh-kmr) | [LinkedIn](https://linkedin.com/in/ratheesh-kumar-)
